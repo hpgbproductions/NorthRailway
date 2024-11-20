@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Aircraft name="Stop Position" url="" theme="Custom" size="0.25,0.07902956,0.25" boundsMin="-0.125,1.731792,-0.125" xmlVersion="7" legacyJointIdentification="false" clientVersion="1.12.203.0">
+  <Variables />
+  <Assembly>
+    <Parts>
+      <Part id="2" partType="FlightComputer-1" position="0,1.733354,2.980232E-08" rotation="0,0,0" drag="0.002,0.002,0.0645,0.0645,0.002,0.002" materials="0,0,0,0" partCollisionResponse="Default">
+        <Cockpit.State primaryCockpit="True">
+          <Variables />
+        </Cockpit.State>
+      </Part>
+    </Parts>
+    <Connections />
+    <Bodies>
+      <Body partIds="2" position="0,0,0" rotation="0,0,0" velocity="0,0,0" angularVelocity="0,0,0" />
+    </Bodies>
+  </Assembly>
+  <Theme name="Custom">
+    <Material color="000000" r="0" m="0.65" s="0.08" e="0" hidden="true" />
+    <Material color="000000" r="0" m="0.65" s="0.08" e="0" hidden="true" />
+    <Material color="000000" r="0" m="0.65" s="0.08" e="0" hidden="true" />
+    <Material color="000000" r="0" m="0.65" s="0.08" e="0" hidden="true" />
+    <Material color="808080" r="0" m="0.64" s="0.08" e="0" />
+    <Material color="4E6576" r="0.3" m="0.5" s="0.83" e="0" />
+    <Material color="657220" r="0.3" m="0.5" s="0.83" e="0" />
+    <Material color="676F6E" r="0.15" m="0.5" s="0.7" e="0" />
+    <Material color="6E6120" r="0" m="0.65" s="0.08" e="0" />
+    <Material color="676976" r="0" m="0.65" s="0.08" e="0" />
+    <Material color="652079" r="0" m="0.65" s="0.08" e="0" />
+    <Material color="6F7520" r="0" m="0.65" s="0.08" e="0" />
+    <Material color="757000" r="0" m="0.65" s="0.08" e="0" />
+    <Material color="000000" r="0" m="0.65" s="0.08" e="0" />
+    <Material color="000000" r="0.15" m="0.5" s="0.7" e="0" />
+    <Material color="000000" r="0" m="0.65" s="0.08" e="0" />
+    <Material color="000000" r="0" m="0.65" s="0.08" e="0" />
+    <Material color="000000" r="0" m="0.65" s="0.08" e="0" />
+    <Material color="000000" r="0" m="0.65" s="0.08" e="0" />
+    <Material color="000000" r="0.3" m="0.54" s="1" e="0" />
+    <Material color="000000" r="0" m="0" s="0" e="0" />
+    <Material color="000000" r="0" m="0.5" s="0.5" e="0" />
+    <Material color="000000" r="0" m="0" s="0" e="1" />
+    <Material color="000000" r="0.15" m="0.5" s="0.7" e="0" />
+  </Theme>
+</Aircraft>
