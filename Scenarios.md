@@ -145,4 +145,4 @@ Timetables for each level. Times in italics and parantheses, e.g., *(12\:00\:00)
 | 04 | Hakurou | 08\:11\:30 | 08\:12\:00 |
 | 03 | Yakumo | 08\:21\:00 | 08\:22\:00 |
 | 02 | Ginsha | | |
-| 01 | Ni-no-mae | | 08\:40\:00 |
+| 01 | Ni-no-mae | 08\:40\:00 | |
