@@ -1,4 +1,4 @@
-### Train Level Quick Start Guide
+# Train Level Quick Start Guide
 
 The TrainLevelBase class can be used to create train driving scenarios. To create a new scenario, declare a class derived from TrainLevelBase.
 
@@ -17,4 +17,4 @@ The TrainLevelBase class can be used to create train driving scenarios. To creat
 3. MinStopDurations is the minimum duration that a train must be stopped before it is allowed to leave. If it is negative, the train may pass the station.
 4. StopPositions is the position of the corresponding stop marker.
 5. Index zero corresponds to the starting station. Index zero of ArrivalTimes, MinStopDurations, and StopPositions are unused.
-6. ArrivalTimes and DepartureTimes can be set as negative. This will cause them to be displayed as "--:--:--".
+6. ArrivalTimes and DepartureTimes can be set as negative. This will cause them to be displayed as "--:--:--". If the departure time for a station is negative, the train will be allowed to depart after the minimum amount of time.
