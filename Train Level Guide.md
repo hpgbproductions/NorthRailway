@@ -1,4 +1,4 @@
-### TrainLevelBase Quick Start Guide
+### Train Level Quick Start Guide
 
 The TrainLevelBase class can be used to create train driving scenarios. To create a new scenario, declare a class derived from TrainLevelBase.
 
