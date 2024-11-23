@@ -65,7 +65,7 @@ Duration: 25 minutes";
     {
         get
         {
-            return new[] { 20, 20, 20 };
+            return new[] { 20, 20, 20, 20, 20 };
         }
     }
 
