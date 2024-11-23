@@ -31,7 +31,7 @@ Duration: 18 minutes";
                 InitialSpeed = 0f,
                 InitialThrottle = 0f,
                 Position = new Vector3(-14088.6f, 85.9f, -11778.49f),
-                Rotation = new Vector3(0f, 5.17f, 0f),
+                Rotation = new Vector3(0f, -5.17f, 0f),
                 StartOnGround = true
             };
         }
