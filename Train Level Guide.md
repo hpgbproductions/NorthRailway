@@ -21,5 +21,6 @@ The TrainLevelBase class can be used to create train driving scenarios. To creat
 
 ### Troubleshooting
 
-**NullReferenceException every frame, and the timer may or may not be stopped**
-Check that the arrays in the level script are all the same length.
+**NullReferenceException every frame, and the timer may or may not be stopped.**
+
+- Check that the arrays in the level script are all the same length.
