@@ -2,7 +2,7 @@
 
 The TrainLevelBase class can be used to create train driving scenarios. To create a new scenario, declare a class derived from TrainLevelBase.
 
-**Typical workflow:**
+### Typical workflow:
 
 1. Identify the stations that the train will stop at, and the stations that the train will pass but the passing time is timetabled.
 2. Fill in the position and rotation of StartLocation.
@@ -10,7 +10,7 @@ The TrainLevelBase class can be used to create train driving scenarios. To creat
 4. Fill in the arrays ArrivalTimes, DepartureTimes, MinStopDurations, and StopPositions. Refer to the section below.
 5. Other overrides and variables are available for changing. Check TrainLevelBase to find them.
 
-**Notes on station definition arrays:**
+### Notes on station definition arrays:
 
 1. ArrivalTimes is used to display stopping and passing times.
 2. DepartureTimes is the earliest time when a train is allowed to leave a station.
@@ -18,3 +18,8 @@ The TrainLevelBase class can be used to create train driving scenarios. To creat
 4. StopPositions is the position of the corresponding stop marker.
 5. Index zero corresponds to the starting station. Index zero of ArrivalTimes, MinStopDurations, and StopPositions are unused.
 6. ArrivalTimes and DepartureTimes can be set as negative. This will cause them to be displayed as "--:--:--". If the departure time for a station is negative, the train will be allowed to depart after the minimum amount of time.
+
+### Troubleshooting
+
+**NullReferenceException every frame, and the timer may or may not be stopped**
+Check that the arrays in the level script are all the same length.
