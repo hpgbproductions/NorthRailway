@@ -57,7 +57,7 @@ Duration: 18 minutes";
     {
         get
         {
-            return new[] { 51480, -1,  52800};
+            return new[] { 51480, 52050,  52800};
         }
     }
 
